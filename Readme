@@ -1,0 +1,27 @@
+อธิบายโค้ด
+3.1
+ประกาศตัวแปบ Score ไว้ที่ตามที่ต้องการ
+ใช้ทำสั่ง if แล้วตั้งเงื่อนไข ถ้าค่าคะแนนในifตรงตามคพแนนค่าScoreให้แสดงผลตามเงื่อนไขเช่นตั้งค่าScoreอยู่ที่ 45
+ให้แสดงผลF ตามเงื่อนไข <50 = ให้แสดงผลF
+3.2
+ประกาศตัวแปร ราคาสินค้า ค่าจัดส่ง โปรโมชั่น ต่างๆ โดยใช้ Function และ if กำหนดเงื่อนไข
+เงื่อนไขที่1 if (priceAfterDiscount <= 0)
+เงื่อนไขที่2 if (priceAfterDiscount > 0 && priceAfterDiscount <= 500)
+เงื่อนไขที่3 if (priceAfterDiscount > 500)
+
+3.3
+สร้าง Array studens โดยมีนักเรียน6คน และเกรด
+ใช้medthod forEach เพื่อวนลูปในArray
+และเรียกใช้function showStudentCount
+
+3.4
+สร้างArray product โดยใน Array มี obj price และ Discount
+มีฟังก์ชั่น calculate
+ใช้ forEach วนลูปใน Array
+ใช้calculateTotal() เพื่อเรียกใช้ function
+
+3.5
+สร้างArray student เก็บข้อมูลของนักเรียน 6 คน มี obj name, Score
+function filterPassedStudents ทำหน้าที่คัดกรอง
+ใช้ forEach วนลูปใน function
+if ตรวจสอบเงื่อนไข
